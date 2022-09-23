@@ -1,0 +1,65 @@
+$back-color: #f6f6f6;
+$bold-color: #0b132a;
+$description-color: #4f5665;
+
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+* {
+  font-family: "Rubik";
+}
+.customer {
+  background-color: #f6f6f6;
+}
+.customer-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: $bold-color;
+  margin-top: 85.93px;
+}
+.customer-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $description-color;
+  margin-top: 20px;
+}
+.customers {
+  display: flex;
+}
+.customer2,
+.customer3 {
+  width: 100%;
+  margin-left: 20px;
+}
+.customer1 {
+  width: 100%;
+  margin-left: 100px;
+}
+.dots {
+  text-align: left;
+  width: 135px;
+  height: 15px;
+  margin-top: 82px;
+  margin-left: 20px;
+  width: 30%;
+}
+.buttons {
+  display: flex;
+}
+.active-inactive {
+  display: flex;
+  margin-left: 30%;
+}
+.butInactive {
+  margin-top: 80px;
+  margin-right: -45px;
+  width:50%;
+  background-color: none;
+}
+.butActive{
+  margin-top: 50px;
+  width:50%;
+  background-color: none;
+}

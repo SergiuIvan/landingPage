@@ -1,0 +1,42 @@
+$nav-color: #4f5665;
+$sign-in-color: #0b132a;
+$but-color: #f53855;
+$back-but-color: white;
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+* {
+   font-family: "Rubik";
+}
+.logo {
+  width: 149px;
+  height: 36.23px;
+  margin-right: 157px;
+}
+.nav-link {
+  color: $nav-color;
+  font-size: 16px;
+}
+.sign-in {
+  color: $sign-in-color;
+  width: 53px;
+  height: 19px;
+  margin-left: 150px;
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.sign-up button {
+  background-color: $back-but-color;
+  border-color: $but-color;
+  color: $but-color;
+  width: 150px;
+  height: 45px;
+  margin-left: 30px;
+  border-radius: 50px;
+}
+.all {
+  display: inline-flex;
+  margin-top: 45.62px;
+}

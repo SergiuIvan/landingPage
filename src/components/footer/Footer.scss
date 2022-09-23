@@ -1,0 +1,139 @@
+$font-color: #f6f6f6;
+$bold-color: #0b132a;
+$description-color: #4f5665;
+$back-but: #f53838;
+$copy-color: #afb5c0;
+$background: #f8f8f8;
+
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+* {
+  font-family: "Rubik";
+}
+.subscribe {
+  text-align: left;
+  margin-left: 150px;
+  display: inline-flex;
+  background-color: $font-color;
+  width:1140px;
+  height: 233px;
+}
+.subs-text-bold {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  color: $bold-color;
+}
+.subs-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $description-color;
+}
+.subscribe-but button {
+  width: 100%;
+  height: 100%;
+  color: $font-color;
+  background-color: $back-but;
+  border-radius: 10px;
+  border: 1px solid $back-but;
+  box-shadow: 0px 15px 19px -9px $back-but;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 340px;
+}
+.subscribe-but {
+  width: 250px;
+  height: 60px;
+}
+.subscribe-text {
+  width: 410px;
+}
+.footer-info {
+  display: flex;
+  background-color: $background;
+}
+.first-column {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.footer-logo {
+  width: 148px;
+  height: 36.23px;
+}
+.first-column-text {
+  width: 340px;
+  height: 61.57px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: $description-color;
+  margin-top: 20px;
+}
+.social {
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+}
+.facebook,
+.twitter,
+.instagram {
+  width: 33.6px;
+  height: 33.6px;
+}
+.facebook img,
+.twitter img,
+.instagram img {
+  width: 100%;
+  height: 100%;
+}
+.copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $copy-color;
+}
+.second-column {
+  text-align: left;
+  width: 74px;
+  height: 280px;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+.third-column {
+  text-align: left;
+  width: 123px;
+  height: 280px;
+  margin-left: 126px;
+  margin-top: 30px;
+}
+.fourth-column {
+  text-align: left;
+  width: 121px;
+  height: 120px;
+  margin-left: 126px;
+  margin-top: 30px;
+}
+.second-title,
+.third-title,
+.fourth-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: $bold-color;
+}
+.second-list,
+.third-list,
+.fourth-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $description-color;
+}

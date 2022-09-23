@@ -1,0 +1,135 @@
+$bold-color: #0b132a;
+$description-color: #4f5665;
+$font-but: white;
+$back-but: #f53838;
+$border-color: #000000;
+$border-users: #eeeff2;
+$back-color: #f6f6f6;
+
+
+.started {
+  display: flex;
+  margin-top: 129.15px;
+}
+.bold-text {
+  color: $bold-color;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "Rubik";
+  font-style: normal;
+}
+.text {
+  padding-top: 27.66px;
+  width: 555px;
+
+  text-align: left;
+}
+.description {
+  color: $description-color;
+  font-size: 16px;
+  width: 555px;
+  height: 60px;
+}
+.photo {
+  margin-left: 40.76px;
+  width: 611.24px;
+  height: 382.44px;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+.get-but {
+  width: 250px;
+  height: 85.29px;
+}
+.get-but button {
+  width: 100%;
+  height: 70.29px;
+  color: $font-but;
+  background-color: $back-but;
+  border-radius: 10px;
+  border: 1px solid $border-color;
+  box-shadow: 0px 15px 19px -9px $back-but;
+  margin-top: 50px;
+}
+.users-locations-servers {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 150px;
+}
+.users,
+.locations,
+.servers {
+  width: 33%;
+  color: $description-color;
+  display: flex;
+}
+svg {
+  margin-left: 91px;
+  margin-right: 36.5px;
+}
+.users,
+.locations {
+  border-right: 2px solid $border-users;
+}
+.provided {
+  display: inline-flex;
+  background-color: $back-color;
+  padding-top: 95.45px;
+}
+.provided img {
+  width: 508.12px;
+  height: 414.71px;
+  margin-left: 150px;
+}
+.text-provided {
+  margin-left: 179px;
+  margin-top: 55.55px;
+}
+#boldText {
+  font-size: 35px;
+  font-weight: 500;
+  width: 383.41px;
+  height: 100px;
+  text-align: left;
+  line-height: 50px;
+}
+#descriptionText {
+  width: 427.88px;
+  height: 60px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $description-color;
+}
+.listTextClass {
+  text-align: left;
+  font-size: 14px;
+  color: $description-color;
+}
+.listTextClass img {
+  width: 25px;
+  height: 25px;
+  margin-left: 0;
+}
+.listTextClass p {
+  line-height: 15px;
+}
+.bottom-text1,
+.bottom-text2,
+.bottom-text3 {
+  text-align: center;
+  margin-top: 130px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: $bold-color;
+}
+.bottom-text2 {
+  margin-top: 100px;
+}
+.bottom-text3 {
+  margin-top: 70px;
+}

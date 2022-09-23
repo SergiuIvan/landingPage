@@ -1,0 +1,120 @@
+$back_color: #f6f6f6;
+$title-color: #0b132a;
+$descriptionPlan-color: #4f5665;
+$border-color: #dddddd;
+$color-card: #ffffff;
+$type-color: #0b132a;
+$active-color:#F53838;
+$border-color: #000000;
+$border-users: #eeeff2;
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+* {
+  font-family: "Rubik";
+}
+.plan {
+  background-color: $back_color;
+}
+.title {
+  text-align: center;
+  color: $title-color;
+  font-size: 35px;
+  padding-top: 80.27px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+
+.descriptionPlan {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $descriptionPlan-color;
+  height: 60px;
+}
+.cards {
+  display: flex;
+  text-align: center;
+}
+.card1,
+.card2,
+.card3 {
+  width: 33%;
+  height: 760px;
+  margin: 50px;
+  border: 2px solid $border-color;
+  background-color: $back_color;
+  border-radius: 10px;
+}
+.card1 img,
+.card2 img,
+.card3 img {
+  width: 144.9px;
+  height: 165.37px;
+  margin-top: 79.63px;
+  margin-left: 92.55px;
+  margin-right: 92.55px;
+}
+.card1 {
+ 
+  margin-right: 25px;
+}
+.card2 {
+  margin-right: 25px;
+}
+
+
+.type-plan {
+  color: $type-color;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.check-plan{
+  text-align: left;
+  font-size: 14px;
+  color:$descriptionPlan-color;
+  font-weight: 400;
+  line-height: 30px;
+}
+.check-plan img{
+  width: 24px;
+  height: 24px;
+  margin-left: 0px;
+  margin-top: 0;
+  margin-right:20px;
+}
+.check-plan p{
+  margin-left: 69.37px;
+  margin-top: 28px;
+}
+.selectBut1,.selectBut2,.selectBut3 {
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+
+.selectBut1 button,.selectBut2 button,.selectBut3 button{
+width: 177.88px;
+height: 45px;
+border-radius: 50px;
+border:2px solid $active-color;
+background-color:$back-color;
+color:$active-color;
+}
+.selectBut1 button:hover,.selectBut2 button:hover,.selectBut3 button:hover{
+  background-color: $active-color;
+  color:$back-color;
+}
+.card1:hover,.card2:hover,.card3:hover{
+  border-color: $active-color;
+}
+
+
