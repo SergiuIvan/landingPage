@@ -50,16 +50,19 @@ $description-color: #4f5665;
 }
 .active-inactive {
   display: flex;
-  margin-left: 30%;
+  margin-left: 50%;
 }
 .butInactive {
   margin-top: 80px;
-  margin-right: -45px;
-  width:50%;
+
+  width:60px;
+  height: 61px;
   background-color: none;
 }
 .butActive{
   margin-top: 50px;
-  width:50%;
+  width:60px;
+  height: 61px;
   background-color: none;
+  
 }

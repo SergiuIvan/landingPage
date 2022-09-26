@@ -59,6 +59,7 @@ $background: #f8f8f8;
   text-align: left;
   margin-left: 100px;
   margin-top: 30px;
+  background-color:$background;
 }
 .footer-logo {
   width: 148px;
@@ -73,6 +74,7 @@ $background: #f8f8f8;
   line-height: 30px;
   color: $description-color;
   margin-top: 20px;
+  background-color:$background;
 }
 .social {
   margin-top: 30px;
@@ -104,6 +106,7 @@ $background: #f8f8f8;
   height: 280px;
   margin-left: 230px;
   margin-top: 30px;
+  background-color:$background;
 }
 .third-column {
   text-align: left;
@@ -111,6 +114,7 @@ $background: #f8f8f8;
   height: 280px;
   margin-left: 126px;
   margin-top: 30px;
+  background-color:$background;
 }
 .fourth-column {
   text-align: left;
@@ -118,6 +122,7 @@ $background: #f8f8f8;
   height: 120px;
   margin-left: 126px;
   margin-top: 30px;
+  background-color:$background;
 }
 .second-title,
 .third-title,
@@ -127,6 +132,7 @@ $background: #f8f8f8;
   font-size: 18px;
   line-height: 30px;
   color: $bold-color;
+  background-color:$background;
 }
 .second-list,
 .third-list,
